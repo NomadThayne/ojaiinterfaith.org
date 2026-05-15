@@ -120,7 +120,7 @@ img { display: block; max-width: 100%; }
   justify-content: center;
   position: relative;
   overflow: hidden;
-  background: var(--cream);
+  background: #e8dcc8;
   padding: var(--nav-h) 2rem 4rem;
 }
 
@@ -128,10 +128,10 @@ img { display: block; max-width: 100%; }
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 60% at 20% 50%, rgba(111,163,191,0.18) 0%, transparent 70%),
-    radial-gradient(ellipse 60% 80% at 80% 30%, rgba(181,114,74,0.10) 0%, transparent 60%),
-    radial-gradient(ellipse 100% 100% at 50% 100%, rgba(196,168,130,0.15) 0%, transparent 60%);
-  background-color: var(--cream);
+    radial-gradient(ellipse 80% 60% at 15% 50%, rgba(111,163,191,0.22) 0%, transparent 65%),
+    radial-gradient(ellipse 60% 70% at 85% 25%, rgba(181,114,74,0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 90% 80% at 50% 110%, rgba(140,74,47,0.12) 0%, transparent 55%);
+  background-color: #e8dcc8;
 }
 
 /* Decorative rings */
@@ -139,17 +139,18 @@ img { display: block; max-width: 100%; }
   content: '';
   position: absolute;
   border-radius: 50%;
-  border: 1px solid rgba(196,168,130,0.2);
 }
 .hero-bg::before {
-  width: 600px; height: 600px;
+  width: 580px; height: 580px;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
+  border: 1.5px solid rgba(140,74,47,0.22);
 }
 .hero-bg::after {
-  width: 900px; height: 900px;
+  width: 880px; height: 880px;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
+  border: 1.5px solid rgba(111,163,191,0.28);
 }
 
 .hero-content {
@@ -157,6 +158,18 @@ img { display: block; max-width: 100%; }
   text-align: center;
   max-width: 680px;
   animation: fadeUp 1.2s ease both;
+}
+
+/* Third decorative ring */
+.hero-content::before {
+  content: '';
+  position: absolute;
+  width: 1160px; height: 1160px;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid rgba(196,168,130,0.18);
+  pointer-events: none;
 }
 
 .hero-logo {
