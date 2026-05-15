@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Interfaith Prayer Gathering",
+    "date": "2026-05-25",
+    "time": "10:00 AM",
+    "location": "Ojai Valley Community Center",
+    "address": "210 W Aliso St, Ojai, CA 93023",
+    "description": "A sacred time of shared prayer and reflection, welcoming all faiths and spiritual traditions. Come as you are.",
+    "category": "Gathering"
+  },
+  {
+    "id": 2,
+    "title": "Potluck & Conversation: Loving Thy Neighbor",
+    "date": "2026-06-08",
+    "time": "5:30 PM",
+    "location": "Ojai Presbyterian Church",
+    "address": "304 N Foothill Rd, Ojai, CA 93023",
+    "description": "Bring a dish to share and join us for an evening of food, fellowship, and open-hearted conversation across faith traditions.",
+    "category": "Community"
+  },
+  {
+    "id": 3,
+    "title": "Midsummer Celebration of Light",
+    "date": "2026-06-21",
+    "time": "7:00 PM",
+    "location": "Libbey Park",
+    "address": "210 S Signal St, Ojai, CA 93023",
+    "description": "An outdoor ceremony honoring the solstice with readings, music, and candlelight from members of our diverse faith communities.",
+    "category": "Celebration"
+  },
+  {
+    "id": 4,
+    "title": "Council Monthly Meeting",
+    "date": "2026-07-12",
+    "time": "9:00 AM",
+    "location": "Ojai Library",
+    "address": "111 E Ojai Ave, Ojai, CA 93023",
+    "description": "Open monthly meeting of the Ojai Interfaith Council. Community members welcome to attend and share.",
+    "category": "Meeting"
+  }
+]

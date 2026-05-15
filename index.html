@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ojai Interfaith Council – Love Thy Neighbor</title>
+  <meta name="description" content="The Ojai Interfaith Council brings together faith communities across the Ojai Valley to promote understanding, fellowship, and service.">
+  <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="images/logo.jpeg" alt="Ojai Interfaith Council Logo" />
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#council">Council</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <img src="images/logo.jpeg" alt="Ojai Interfaith Council" class="hero-logo" />
+      <h1>Ojai Interfaith<br/><em>Council</em></h1>
+      <p class="hero-tagline">Love Thy Neighbor</p>
+      <p class="hero-sub">Uniting the diverse faith communities of the Ojai Valley<br>in fellowship, understanding, and service.</p>
+      <div class="hero-cta">
+        <a href="#events" class="btn-primary">Upcoming Events</a>
+        <a href="#contact" class="btn-secondary">Get Involved</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MISSION BAND -->
+  <section class="mission-band">
+    <div class="mission-inner">
+      <div class="mission-item">
+        <div class="mission-icon">✦</div>
+        <h3>Fellowship</h3>
+        <p>Gathering across traditions to share in our common humanity and shared values.</p>
+      </div>
+      <div class="mission-divider"></div>
+      <div class="mission-item">
+        <div class="mission-icon">✦</div>
+        <h3>Understanding</h3>
+        <p>Building bridges of respect and curiosity between Ojai's rich faith traditions.</p>
+      </div>
+      <div class="mission-divider"></div>
+      <div class="mission-item">
+        <div class="mission-icon">✦</div>
+        <h3>Service</h3>
+        <p>Working together in our community to love and care for our neighbors.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section id="events" class="events-section">
+    <div class="section-header">
+      <span class="section-label">What's Coming</span>
+      <h2>Upcoming Events</h2>
+      <p class="section-sub">All are welcome, regardless of faith tradition or background.</p>
+    </div>
+    <div class="events-grid" id="eventsGrid">
+      <!-- Populated by JS -->
+    </div>
+    <div class="events-footer">
+      <p>To add your interfaith event to our calendar, <a href="#contact">contact us</a>.</p>
+    </div>
+  </section>
+
+  <!-- COUNCIL MEMBERS -->
+  <section id="council" class="council-section">
+    <div class="section-header">
+      <span class="section-label">Who We Are</span>
+      <h2>Council Members</h2>
+      <p class="section-sub">Our council represents the beautiful diversity of faith in the Ojai Valley.</p>
+    </div>
+    <div class="members-grid" id="membersGrid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="contact-inner">
+      <div class="contact-text">
+        <span class="section-label">Reach Out</span>
+        <h2>Get in Touch</h2>
+        <p>Whether you'd like to get involved, submit an event, or simply learn more — we'd love to hear from you.</p>
+        <div class="contact-details">
+          <div class="contact-detail">
+            <span class="detail-label">Email</span>
+            <a href="mailto:info@ojaiinterfaith.org">info@ojaiinterfaith.org</a>
+          </div>
+          <div class="contact-detail">
+            <span class="detail-label">Location</span>
+            <span>Ojai, California</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">Select a reason…</option>
+              <option value="general">General Inquiry</option>
+              <option value="event">Submit an Event</option>
+              <option value="volunteer">Volunteer / Get Involved</option>
+              <option value="newsletter">Join Our Mailing List</option>
+              <option value="media">Media / Press</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help…" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Send Message</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="images/logo.jpeg" alt="Ojai Interfaith Council" />
+        <p>Love Thy Neighbor</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="#council">Council</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> Ojai Interfaith Council. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

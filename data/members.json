@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Rev. Sarah Mitchell",
+    "title": "Chair",
+    "tradition": "United Methodist",
+    "bio": "Rev. Mitchell has served Ojai's faith community for over 15 years and has been a founding voice of the Interfaith Council.",
+    "photo": ""
+  },
+  {
+    "id": 2,
+    "name": "Rabbi David Cohen",
+    "title": "Vice Chair",
+    "tradition": "Jewish",
+    "bio": "Rabbi Cohen brings a deep commitment to dialogue and understanding, leading Ojai's Jewish community for a decade.",
+    "photo": ""
+  },
+  {
+    "id": 3,
+    "name": "Imam Yusuf Al-Amin",
+    "title": "Secretary",
+    "tradition": "Muslim",
+    "bio": "Imam Al-Amin is a passionate advocate for bridge-building and has led numerous interfaith education programs in Ventura County.",
+    "photo": ""
+  },
+  {
+    "id": 4,
+    "name": "Sister Maria Luz",
+    "title": "Treasurer",
+    "tradition": "Roman Catholic",
+    "bio": "Sister Maria Luz has served communities across California and brings decades of compassionate service to the Council.",
+    "photo": ""
+  },
+  {
+    "id": 5,
+    "name": "Swami Anandaji",
+    "title": "Member at Large",
+    "tradition": "Hindu / Vedanta",
+    "bio": "Swami Anandaji leads meditation and wisdom teachings at the Ojai Foundation and has been part of the Council since its inception.",
+    "photo": ""
+  },
+  {
+    "id": 6,
+    "name": "Dr. Lena Park",
+    "title": "Member at Large",
+    "tradition": "Buddhist",
+    "bio": "Dr. Park is a teacher and practitioner in the Zen tradition, and coordinates the Council's community outreach programs.",
+    "photo": ""
+  }
+]
