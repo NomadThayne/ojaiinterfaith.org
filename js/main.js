@@ -46,8 +46,12 @@ function renderEvents(events) {
 
   // Filter future events and sort
   const upcoming = events
-    .filter(e => new Date(e.date + 'T00:00:00') >= today)
-    .sort((a, b) => new Date(a.date) - new Date(b.date));
+    .filter(e => e.category === 'Coming Soon' || new Date(e.date + 'T00:00:00') >= today)
+    .sort((a, b) => {
+      if (a.category === 'Coming Soon') return -1;
+      if (b.category === 'Coming Soon') return 1;
+      return new Date(a.date) - new Date(b.date);
+    });
 
   if (!upcoming.length) {
     grid.innerHTML = '<p style="text-align:center;color:var(--text-light);grid-column:1/-1">No upcoming events at this time. Check back soon.</p>';
@@ -58,14 +62,16 @@ function renderEvents(events) {
     const d     = new Date(e.date + 'T00:00:00');
     const month = MONTHS[d.getMonth()];
     const day   = d.getDate();
+    const isComingSoon = e.category === 'Coming Soon';
 
     return `
-      <article class="event-card reveal" style="transition-delay:${i * 80}ms">
+      <article class="event-card${isComingSoon ? ' coming-soon' : ''} reveal" style="transition-delay:${i * 80}ms">
         <span class="event-category">${e.category}</span>
+        ${isComingSoon ? '' : `
         <div class="event-date-block">
           <span class="event-month">${month} ${d.getFullYear()}</span>
           <span class="event-day">${day}</span>
-        </div>
+        </div>`}
         <h3>${e.title}</h3>
         <div class="event-meta">
           <span><strong>🕐</strong> ${e.time}</span>
