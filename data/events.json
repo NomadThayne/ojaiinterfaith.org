@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "\"Love Thy Neighbor\" Cookbook Launch",
-    "date": "2026-12-31",
+    "date": "Coming Soon",
     "time": "Coming Soon",
     "location": "TBD",
     "address": "",
@@ -30,22 +30,12 @@
     "category": "Gathering"
   },
   {
-    "id": 4,
-    "title": "Council Monthly Meeting",
-    "date": "2026-05-28",
-    "time": "TBD",
-    "location": "Church of Jesus Christ of Latter-day Saints",
-    "address": "Ojai, CA",
-    "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
-    "category": "Meeting"
-  },
-  {
     "id": 5,
     "title": "Council Monthly Meeting",
     "date": "2026-06-11",
     "time": "TBD",
     "location": "Church of Jesus Christ of Latter-day Saints",
-    "address": "Ojai, CA",
+    "address": "411 San Antonio Street, Ojai, CA",
     "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
     "category": "Meeting"
   },
@@ -55,7 +45,7 @@
     "date": "2026-07-09",
     "time": "TBD",
     "location": "Church of Jesus Christ of Latter-day Saints",
-    "address": "Ojai, CA",
+    "address": "411 San Antonio Street, Ojai, CA",
     "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
     "category": "Meeting"
   },
@@ -65,7 +55,47 @@
     "date": "2026-08-13",
     "time": "TBD",
     "location": "Church of Jesus Christ of Latter-day Saints",
-    "address": "Ojai, CA",
+    "address": "411 San Antonio Street, Ojai, CA",
+    "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
+    "category": "Meeting"
+  }
+]
+  "id": 7,
+    "title": "Council Monthly Meeting",
+    "date": "2026-09-10",
+    "time": "TBD",
+    "location": "Church of Jesus Christ of Latter-day Saints",
+    "address": "411 San Antonio Street, Ojai, CA",
+    "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
+    "category": "Meeting"
+  }
+]
+  "id": 7,
+    "title": "Council Monthly Meeting",
+    "date": "2026-10-08",
+    "time": "TBD",
+    "location": "Church of Jesus Christ of Latter-day Saints",
+    "address": "411 San Antonio Street, Ojai, CA",
+    "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
+    "category": "Meeting"
+  }
+]
+  "id": 7,
+    "title": "Council Monthly Meeting",
+    "date": "2026-11-12",
+    "time": "TBD",
+    "location": "Church of Jesus Christ of Latter-day Saints",
+    "address": "411 San Antonio Street, Ojai, CA",
+    "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
+    "category": "Meeting"
+  }
+]
+  "id": 7,
+    "title": "Council Monthly Meeting",
+    "date": "2026-12-10",
+    "time": "TBD",
+    "location": "Church of Jesus Christ of Latter-day Saints",
+    "address": "411 San Antonio Street, Ojai, CA",
     "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
     "category": "Meeting"
   }
