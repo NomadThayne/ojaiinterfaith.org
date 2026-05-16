@@ -121,6 +121,7 @@ function renderMembers(members) {
           ${getAvatar(m)}
         </div>
         <p class="member-name">${m.name}</p>
+        ${m.title && m.title !== 'Member' ? `<p class="member-role">${m.title}</p>` : ''}
         ${m.tradition ? `<p class="member-tradition">${m.tradition}</p>` : ''}
         ${m.bio ? `<p class="member-bio">${m.bio}</p>` : ''}
       </div>

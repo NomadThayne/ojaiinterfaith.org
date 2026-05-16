@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Reverend Marilyn Miller",
-    "title": "Member",
+    "title": "Co-Chair",
     "tradition": "Center for Spiritual Living",
     "symbol": "✦",
     "symbolLabel": "New Thought",
@@ -12,8 +12,8 @@
   {
     "id": 2,
     "name": "Alan Greenberg",
-    "title": "Member",
-    "tradition": "Jewish",
+    "title": "Co-Chair",
+    "tradition": "Jewish Community of Ojai",
     "symbol": "✡",
     "symbolLabel": "Jewish",
     "bio": "",
@@ -21,46 +21,66 @@
   },
   {
     "id": 3,
-    "name": "Louise Winfield",
-    "title": "Member",
-    "tradition": "Jewish",
-    "symbol": "✡",
-    "symbolLabel": "Jewish",
+    "name": "Thayne Whipple",
+    "title": "Vice-Chair",
+    "tradition": "Church of Jesus Christ of Latter-day Saints",
+    "symbol": "✝",
+    "symbolLabel": "LDS",
     "bio": "",
     "photo": ""
   },
   {
     "id": 4,
-    "name": "Sheila Cohn",
+    "name": "Louise Winfield",
+    "title": "Recording Secretary",
+    "tradition": "Jewish Community of Ojai",
+    "symbol": "✡",
+    "symbolLabel": "Jewish",
+    "bio": "Co-Chair of Cookbook",
+    "photo": ""
+  },
+  {
+    "id": 5,
+    "name": "Rabbi Lisa Bock",
     "title": "Member",
-    "tradition": "Jewish",
+    "tradition": "Jewish Community of Ojai",
     "symbol": "✡",
     "symbolLabel": "Jewish",
     "bio": "",
     "photo": ""
   },
   {
-    "id": 5,
+    "id": 6,
+    "name": "Sheila Cohn",
+    "title": "Member",
+    "tradition": "Jewish Community of Ojai",
+    "symbol": "✡",
+    "symbolLabel": "Jewish",
+    "bio": "",
+    "photo": ""
+  },
+  {
+    "id": 7,
     "name": "Carrie Sanders",
     "title": "Member",
-    "tradition": "SGI-USA Buddhism",
+    "tradition": "BRG Buddhist",
     "symbol": "☸",
     "symbolLabel": "Buddhist",
     "bio": "",
     "photo": ""
   },
   {
-    "id": 6,
+    "id": 8,
     "name": "Peggy Grunert",
     "title": "Member",
-    "tradition": "Center for Spiritual Living",
-    "symbol": "✦",
-    "symbolLabel": "New Thought",
+    "tradition": "International City of Peace",
+    "symbol": "☮",
+    "symbolLabel": "Peace",
     "bio": "",
     "photo": ""
   },
   {
-    "id": 7,
+    "id": 9,
     "name": "Klaus-Peter Fleischmann",
     "title": "Member",
     "tradition": "International City of Peace",
@@ -70,17 +90,7 @@
     "photo": ""
   },
   {
-    "id": 8,
-    "name": "Rabbi Lisa Bock",
-    "title": "Member",
-    "tradition": "Jewish",
-    "symbol": "✡",
-    "symbolLabel": "Jewish",
-    "bio": "",
-    "photo": ""
-  },
-  {
-    "id": 9,
+    "id": 10,
     "name": "Keya Murthy",
     "title": "Member",
     "tradition": "Hindu",
@@ -90,7 +100,7 @@
     "photo": ""
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Kelly Luscombe Bea",
     "title": "Member",
     "tradition": "Hindu",
@@ -100,12 +110,12 @@
     "photo": ""
   },
   {
-    "id": 11,
-    "name": "Thayne Whipple",
+    "id": 12,
+    "name": "Reverend Katie Donaldson",
     "title": "Member",
-    "tradition": "Church of Jesus Christ of Latter-day Saints",
+    "tradition": "St. Anthony's Episcopal Church",
     "symbol": "✝",
-    "symbolLabel": "Church of Jesus Christ of Latter-day Saints",
+    "symbolLabel": "Episcopal",
     "bio": "",
     "photo": ""
   }
