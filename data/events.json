@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "\"Love Thy Neighbor\" Cookbook Launch",
-    "date": "Coming Soon",
+    "date": "2026-12-31",
     "time": "Coming Soon",
     "location": "TBD",
     "address": "",
@@ -58,9 +58,9 @@
     "address": "411 San Antonio Street, Ojai, CA",
     "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
     "category": "Meeting"
-  }
-]
-  "id": 7,
+  },
+  {
+    "id": 8,
     "title": "Council Monthly Meeting",
     "date": "2026-09-10",
     "time": "TBD",
@@ -68,9 +68,9 @@
     "address": "411 San Antonio Street, Ojai, CA",
     "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
     "category": "Meeting"
-  }
-]
-  "id": 7,
+  },
+  {
+    "id": 9,
     "title": "Council Monthly Meeting",
     "date": "2026-10-08",
     "time": "TBD",
@@ -78,9 +78,9 @@
     "address": "411 San Antonio Street, Ojai, CA",
     "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
     "category": "Meeting"
-  }
-]
-  "id": 7,
+  },
+  {
+    "id": 10,
     "title": "Council Monthly Meeting",
     "date": "2026-11-12",
     "time": "TBD",
@@ -88,9 +88,9 @@
     "address": "411 San Antonio Street, Ojai, CA",
     "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
     "category": "Meeting"
-  }
-]
-  "id": 7,
+  },
+  {
+    "id": 11,
     "title": "Council Monthly Meeting",
     "date": "2026-12-10",
     "time": "TBD",
