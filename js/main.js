@@ -140,7 +140,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
   btn.textContent = 'Sending…';
 
   // Formspree endpoint – replace YOUR_FORM_ID with actual ID after signing up at formspree.io
-  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xgoqwkny';
 
   const formData = new FormData(this);
 
