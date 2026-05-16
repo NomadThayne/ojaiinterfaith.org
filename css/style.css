@@ -515,6 +515,14 @@ img { display: block; max-width: 100%; }
 }
 .member-avatar img { width: 100%; height: 100%; object-fit: cover; }
 
+.faith-symbol {
+  font-size: 1.6rem;
+  line-height: 1;
+  font-style: normal;
+  color: var(--sky-light);
+  filter: drop-shadow(0 1px 4px rgba(111,163,191,0.4));
+}
+
 .member-name {
   font-family: var(--font-serif);
   font-weight: 400;

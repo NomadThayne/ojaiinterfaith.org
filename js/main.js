@@ -112,11 +112,14 @@ function renderMembers(members) {
 
     return `
       <div class="member-card reveal" style="transition-delay:${i * 60}ms">
-        <div class="member-avatar">${m.photo ? `<img src="${m.photo}" alt="${m.name}">` : getInitials(m.name)}</div>
+        <div class="member-avatar">
+          ${m.photo ? `<img src="${m.photo}" alt="${m.name}">` : 
+            m.symbol ? `<span class="faith-symbol" title="${m.symbolLabel}">${m.symbol}</span>` : 
+            getInitials(m.name)}
+        </div>
         <p class="member-name">${m.name}</p>
-        <p class="member-role">${m.title}</p>
-        <p class="member-tradition">${m.tradition}</p>
-        <p class="member-bio">${m.bio}</p>
+        ${m.tradition ? `<p class="member-tradition">${m.tradition}</p>` : ''}
+        ${m.bio ? `<p class="member-bio">${m.bio}</p>` : ''}
       </div>
     `;
   }).join('');
