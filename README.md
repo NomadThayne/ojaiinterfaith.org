@@ -20,6 +20,25 @@ ojaiinterfaith/
 
 ---
 
+## Previewing Locally
+
+Because the site loads `data/events.json` and `data/members.json` via JavaScript, you **cannot** preview it by just double-clicking `index.html` — browsers block local file requests for security. You have two options:
+
+**Option A — VS Code Live Server (easiest):**
+1. Install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code
+2. Right-click `index.html` → **Open with Live Server**
+
+**Option B — Python (if installed):**
+```bash
+cd ojaiinterfaith
+python3 -m http.server 8000
+```
+Then open `http://localhost:8000` in your browser.
+
+The live site at ojaiinterfaith.org will always work correctly.
+
+---
+
 ## Updating Content
 
 ### Adding / Editing Events

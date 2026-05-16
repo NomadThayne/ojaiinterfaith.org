@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" fill="none">
+  <!-- Robes / body -->
+  <ellipse cx="50" cy="105" rx="22" ry="12" fill="currentColor" opacity="0.15"/>
+  <path d="M32 115 Q35 85 38 75 Q42 65 50 63 Q58 65 62 75 Q65 85 68 115 Z" fill="currentColor" opacity="0.7"/>
+  <!-- Arms outstretched -->
+  <path d="M18 72 Q30 68 38 70 Q44 71 50 71 Q56 71 62 70 Q70 68 82 72" stroke="currentColor" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- Neck & head -->
+  <line x1="50" y1="63" x2="50" y2="55" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="50" cy="47" r="10" fill="currentColor" opacity="0.8"/>
+  <!-- Halo -->
+  <circle cx="50" cy="47" r="16" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.35"/>
+</svg>

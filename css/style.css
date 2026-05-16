@@ -523,6 +523,15 @@ img { display: block; max-width: 100%; }
   filter: drop-shadow(0 1px 4px rgba(111,163,191,0.4));
 }
 
+.faith-symbol-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  color: var(--sky-light);
+  filter: invert(1) sepia(1) saturate(0.5) hue-rotate(180deg) brightness(1.4);
+  opacity: 0.85;
+}
+
 .member-name {
   font-family: var(--font-serif);
   font-weight: 400;

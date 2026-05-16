@@ -103,19 +103,22 @@ function getInitials(name) {
   return name.split(' ').filter(Boolean).map(w => w[0]).slice(0, 2).join('');
 }
 
+function getAvatar(m) {
+  if (m.photo) return `<img src="${m.photo}" alt="${m.name}">`;
+  if (m.symbol === 'christus') {
+    return `<img src="images/christus.svg" alt="Christus" class="faith-symbol-img" title="${m.symbolLabel}">`;
+  }
+  if (m.symbol) return `<span class="faith-symbol" title="${m.symbolLabel}">${m.symbol}</span>`;
+  return getInitials(m.name);
+}
+
 function renderMembers(members) {
   const grid = document.getElementById('membersGrid');
   grid.innerHTML = members.map((m, i) => {
-    const avatar = m.photo
-      ? `<img src="${m.photo}" alt="${m.name}">`
-      : getInitials(m.name);
-
     return `
       <div class="member-card reveal" style="transition-delay:${i * 60}ms">
         <div class="member-avatar">
-          ${m.photo ? `<img src="${m.photo}" alt="${m.name}">` : 
-            m.symbol ? `<span class="faith-symbol" title="${m.symbolLabel}">${m.symbol}</span>` : 
-            getInitials(m.name)}
+          ${getAvatar(m)}
         </div>
         <p class="member-name">${m.name}</p>
         ${m.tradition ? `<p class="member-tradition">${m.tradition}</p>` : ''}

@@ -4,7 +4,7 @@
     "name": "Reverend Marilyn Miller",
     "title": "Member",
     "tradition": "Center for Spiritual Living",
-    "symbol": "✦",
+    "symbol": "\u2726",
     "symbolLabel": "New Thought",
     "bio": "",
     "photo": ""
@@ -14,7 +14,7 @@
     "name": "Alan Greenberg",
     "title": "Member",
     "tradition": "Jewish",
-    "symbol": "✡",
+    "symbol": "\u2721",
     "symbolLabel": "Jewish",
     "bio": "",
     "photo": ""
@@ -24,7 +24,7 @@
     "name": "Louise Winfield",
     "title": "Member",
     "tradition": "Jewish",
-    "symbol": "✡",
+    "symbol": "\u2721",
     "symbolLabel": "Jewish",
     "bio": "",
     "photo": ""
@@ -34,7 +34,7 @@
     "name": "Sheila Cohn",
     "title": "Member",
     "tradition": "Jewish",
-    "symbol": "✡",
+    "symbol": "\u2721",
     "symbolLabel": "Jewish",
     "bio": "",
     "photo": ""
@@ -44,7 +44,7 @@
     "name": "Carrie Sanders",
     "title": "Member",
     "tradition": "SGI-USA Buddhism",
-    "symbol": "☸",
+    "symbol": "\u2638",
     "symbolLabel": "Buddhist",
     "bio": "",
     "photo": ""
@@ -54,7 +54,7 @@
     "name": "Peggy Grunert",
     "title": "Member",
     "tradition": "Center for Spiritual Living",
-    "symbol": "✦",
+    "symbol": "\u2726",
     "symbolLabel": "New Thought",
     "bio": "",
     "photo": ""
@@ -64,7 +64,7 @@
     "name": "Klaus-Peter Fleischmann",
     "title": "Member",
     "tradition": "International City of Peace",
-    "symbol": "☮",
+    "symbol": "\u262e",
     "symbolLabel": "Peace",
     "bio": "",
     "photo": ""
@@ -74,7 +74,7 @@
     "name": "Rabbi Lisa Bock",
     "title": "Member",
     "tradition": "Jewish",
-    "symbol": "✡",
+    "symbol": "\u2721",
     "symbolLabel": "Jewish",
     "bio": "",
     "photo": ""
@@ -84,7 +84,7 @@
     "name": "Keya Murthy",
     "title": "Member",
     "tradition": "Hindu",
-    "symbol": "🕉",
+    "symbol": "\ud83d\udd49",
     "symbolLabel": "Hindu",
     "bio": "",
     "photo": ""
@@ -94,7 +94,7 @@
     "name": "Kelly Luscombe Bea",
     "title": "Member",
     "tradition": "Hindu",
-    "symbol": "🕉",
+    "symbol": "\ud83d\udd49",
     "symbolLabel": "Hindu",
     "bio": "",
     "photo": ""
@@ -104,8 +104,8 @@
     "name": "Thayne Whipple",
     "title": "Member",
     "tradition": "Church of Jesus Christ of Latter-day Saints",
-    "symbol": "✝",
-    "symbolLabel": "LDS",
+    "symbol": "christus",
+    "symbolLabel": "Church of Jesus Christ of Latter-day Saints",
     "bio": "",
     "photo": ""
   }
