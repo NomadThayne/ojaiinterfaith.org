@@ -468,8 +468,13 @@ img { display: block; max-width: 100%; }
 }
 
 .btn-service {
-  display: inline-block;
-  font-size: 0.88rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1rem;
+  padding: 1.1rem 2.8rem;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
 }
 
 .events-footer p {
