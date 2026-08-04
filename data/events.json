@@ -30,29 +30,9 @@
     "category": "Gathering"
   },
   {
-    "id": 5,
+      "id": 7,
     "title": "Council Monthly Meeting",
-    "date": "2026-06-11",
-    "time": "Noon",
-    "location": "Church of Jesus Christ of Latter-day Saints",
-    "address": "411 San Antonio Street, Ojai, CA",
-    "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
-    "category": "Meeting"
-  },
-  {
-    "id": 6,
-    "title": "Council Monthly Meeting",
-    "date": "2026-07-09",
-    "time": "Noon",
-    "location": "Church of Jesus Christ of Latter-day Saints",
-    "address": "411 San Antonio Street, Ojai, CA",
-    "description": "The Council meets on the second Thursday of each month. Community members are welcome to attend and share.",
-    "category": "Meeting"
-  },
-  {
-    "id": 7,
-    "title": "Council Monthly Meeting",
-    "date": "2026-08-13",
+    "date": "2026-08-20",
     "time": "Noon",
     "location": "Church of Jesus Christ of Latter-day Saints",
     "address": "411 San Antonio Street, Ojai, CA",
@@ -62,7 +42,7 @@
   {
     "id": 8,
     "title": "Council Monthly Meeting",
-    "date": "2026-09-10",
+    "date": "2026-09-17",
     "time": "Noon",
     "location": "Church of Jesus Christ of Latter-day Saints",
     "address": "411 San Antonio Street, Ojai, CA",
@@ -72,7 +52,7 @@
   {
     "id": 9,
     "title": "Council Monthly Meeting",
-    "date": "2026-10-08",
+    "date": "2026-10-15",
     "time": "Noon",
     "location": "Church of Jesus Christ of Latter-day Saints",
     "address": "411 San Antonio Street, Ojai, CA",
@@ -82,7 +62,7 @@
   {
     "id": 10,
     "title": "Council Monthly Meeting",
-    "date": "2026-11-12",
+    "date": "2026-11-19",
     "time": "Noon",
     "location": "Church of Jesus Christ of Latter-day Saints",
     "address": "411 San Antonio Street, Ojai, CA",
@@ -92,7 +72,7 @@
   {
     "id": 11,
     "title": "Council Monthly Meeting",
-    "date": "2026-12-10",
+    "date": "2026-12-17",
     "time": "Noon",
     "location": "Church of Jesus Christ of Latter-day Saints",
     "address": "411 San Antonio Street, Ojai, CA",
