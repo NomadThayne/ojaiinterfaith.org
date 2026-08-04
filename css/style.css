@@ -461,16 +461,28 @@ img { display: block; max-width: 100%; }
 .events-footer {
   text-align: center;
   margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.btn-service {
+  display: inline-block;
+  font-size: 0.88rem;
+}
+
+.events-footer p {
   font-size: 0.88rem;
   color: var(--text-light);
 }
-.events-footer a {
+.events-footer a:not(.btn-service) {
   color: var(--terracotta);
   border-bottom: 1px solid var(--terracotta);
   padding-bottom: 1px;
   transition: opacity 0.2s;
 }
-.events-footer a:hover { opacity: 0.7; }
+.events-footer a:not(.btn-service):hover { opacity: 0.7; }
 
 /* ── COUNCIL ───────────────────────────────────── */
 .council-section {
